@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header{
@@ -18,7 +18,7 @@ font-style: oblique ;
 
 .header .fa-solid {
     font-size: 100px;
-    color: aquamarine
+    color: rgb(1, 243, 243);
 }
 
 
@@ -36,6 +36,13 @@ font-style: oblique ;
     margin-left: 10px;
     list-style: none;
 }
+
+.menu li a :hover{
+
+color: rgb(68, 24, 228);
+}
+
+
 
 .menu {
 
@@ -97,23 +104,22 @@ list-style: none;
 
 }
 
-.lista-rodape li a{
+.lista-rodape li a {
 text-decoration: none;
 color: white;
 font-size: 20px;
 
-
-
 }
 
-.lista-rodape li a :hover{
+.lista-rodape li a:hover {
+  color: red;
+    transition: 0,7;
 
-    color: rgb(42, 165, 159);
-    transition: 0.8s;
+
 }
 
 .rodape i{
-color: white
+color: white;
 font-size: 25px;
 background-color: rgb(1, 243, 243);
 padding: 10px;
@@ -121,10 +127,12 @@ margin-left: 10px;
 
 }
 
-.aa a{
+p{
+font-size: 20px;
 
-    text-decoration: none;
-    color: aquamarine;
 }
-
  
+h1{
+
+font-size:50px;
+}
